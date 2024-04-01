@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<drawable name="translucent_background">#a0000000</drawable>
+		<color name="color_black">#000000</color>
+		<color name="color_pink">#ff69b4</color>
+		<color name="color_rightpink">#e9967a</color>
+		<color name="color_dimgrey">#696969</color>
+		<color name="color_white">#ffffff</color>
+		<color name="colorAccent">#004481</color>
+		
+		<color name="univ_search_gray">#f3f3f3</color>
+		<color name="univ_search_result_bg">#EFF6FD</color>
+		<color name="univ_search_result_text">#676767</color>		
+		<color name="univ_search_result_blue_text">#17385F</color>
+		
+		<color name="mylist_bg">#daeef5</color>
+		<color name="mylist_title_text">#3e6e84</color>
+		<color name="mylist_line">#95bbc6</color>
+		<color name="mylist_text_red">#a8312b</color>
+</resources>

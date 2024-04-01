@@ -1,0 +1,108 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .cvsignore
+* CVS\
+* CVS\Entries
+* CVS\Repository
+* CVS\Root
+* proguard-project.txt
+* psd\
+* psd\CVS\
+* psd\CVS\Entries
+* psd\CVS\Repository
+* psd\CVS\Root
+* psd\android
+* psd\big_icon_bizcard.psd
+* psd\icon.psd
+* psd\icon_bizcard.psd
+* psd\main_visual.psd
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.+
+gcm.jar => com.google.android.gms:play-services:+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* libs\apache-mime4j-0.6.1.jar => app\libs\apache-mime4j-0.6.1.jar
+* libs\commons-logging-1.2.jar => app\libs\commons-logging-1.2.jar
+* libs\gcm-server.jar => app\libs\gcm-server.jar
+* libs\httpclient-4.5.2.jar => app\libs\httpclient-4.5.2.jar
+* libs\httpclient-cache-4.5.2.jar => app\libs\httpclient-cache-4.5.2.jar
+* libs\httpclient-win-4.5.2.jar => app\libs\httpclient-win-4.5.2.jar
+* libs\httpcore-4.4.4.jar => app\libs\httpcore-4.4.4.jar
+* libs\httpmime-4.5.2.jar => app\libs\httpmime-4.5.2.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\com\CVS\Entries => app\src\main\resources\com\CVS\Entries
+* src\com\CVS\Repository => app\src\main\resources\com\CVS\Repository
+* src\com\CVS\Root => app\src\main\resources\com\CVS\Root
+* src\com\nezip\bizcard\CVS\Entries => app\src\main\resources\com\nezip\bizcard\CVS\Entries
+* src\com\nezip\bizcard\CVS\Repository => app\src\main\resources\com\nezip\bizcard\CVS\Repository
+* src\com\nezip\bizcard\CVS\Root => app\src\main\resources\com\nezip\bizcard\CVS\Root
+* src\com\nezip\CVS\Entries => app\src\main\resources\com\nezip\CVS\Entries
+* src\com\nezip\CVS\Repository => app\src\main\resources\com\nezip\CVS\Repository
+* src\com\nezip\CVS\Root => app\src\main\resources\com\nezip\CVS\Root
+* src\CVS\Entries => app\src\main\resources\CVS\Entries
+* src\CVS\Repository => app\src\main\resources\CVS\Repository
+* src\CVS\Root => app\src\main\resources\CVS\Root
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+C:\CookAndroid\adt-bundle-windows-x86\sdk
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Missing Google Repository:
+--------------------------
+The Google Play Services library is installed from a special Maven
+Repository, which should be installed via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+C:\CookAndroid\adt-bundle-windows-x86\sdk
+
+To install it, open the SDK manager, and in the Extras category,
+select "Google Repository".
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

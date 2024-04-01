@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/univ_search_gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/RowItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="3dip"
+        android:layout_marginRight="3dip"
+        android:layout_marginTop="3dip"
+        android:background="@drawable/orderborder"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:baselineAligned="false" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/corpPhoto"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:adjustViewBounds="true"
+                            android:paddingRight="10dp"
+                            android:src="@drawable/no_image" />
+
+                        <EditText
+                            android:id="@+id/companyLogo"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:visibility="gone" >
+
+                            <requestFocus />
+                        </EditText>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/companyName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="상호"
+                            android:textColor="#ff000000"
+                            android:textSize="30sp" />
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right" >
+
+                            <Button
+                                android:id="@+id/MemoBtn"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="0"
+                                android:background="@drawable/offlineborder"
+                                android:text="메모"
+                                android:textColor="#ffcccccc" />
+
+                            <Button
+                                android:id="@+id/ChatBtn"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="0"
+                                android:background="@drawable/offlineborder"
+                                android:text="채팅"
+                                android:textColor="#ffcccccc" />
+
+                            <Button
+                                android:id="@+id/PhoneBtn"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="0"
+                                android:background="@drawable/offlineborder"
+                                android:text="전화"
+                                android:textColor="#ffcccccc" />
+
+                            <Button
+                                android:id="@+id/smsBtn"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="0"
+                                android:background="@drawable/offlineborder"
+                                android:text="문자"
+                                android:textColor="#ffcccccc" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:baselineAligned="false" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:baselineAligned="false"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:baselineAligned="false"
+                            android:gravity="bottom" >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" >
+
+                                <TextView
+                                    android:id="@+id/dept"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5dp"
+                                    android:text="부서"
+                                    android:textColor="#ff000000"
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:id="@+id/grade"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp"
+                                    android:text="직급(직책)"
+                                    android:textColor="#ff000000"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:layout_weight="0"
+                                android:gravity="right" >
+
+                                <TextView
+                                    android:id="@+id/userName"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="right"
+                                    android:text="이름"
+                                    android:textColor="#ff000000"
+                                    android:textSize="24sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="전화."
+                                android:textColor="#ff000000"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/officeTel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:autoLink="phone"
+                                android:text="사무실 전화"
+                                android:textColor="#ff000000"
+                                android:textSize="14sp" />
+
+                            <Button
+                                android:id="@+id/officeTelBtn"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="right"
+                                android:layout_weight="0"
+                                android:background="@drawable/offlineborder"
+                                android:text="전화"
+                                android:textColor="#ffcccccc" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="팩스."
+                                android:textColor="#ff000000"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/officeFax"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="사무실 팩스"
+                                android:textColor="#ff000000"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="핸드폰."
+                                android:textColor="#ff000000"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/mobile"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:autoLink="phone"
+                                android:text="핸드폰 번호"
+                                android:textColor="#ff000000"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0"
+                            android:gravity="right" >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:text="대표."
+                                android:textColor="#ff000000"
+                                android:textSize="14sp" />
+                            
+                            <TextView
+                                android:id="@+id/topPhone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:autoLink="phone"
+                                android:text="대표전화"
+                                android:textColor="#ff000000"
+                                android:textSize="14sp" />
+
+                            <Button
+                                android:id="@+id/topPhoneBtn"
+                                style="?android:attr/buttonStyleSmall"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_gravity="right"
+                                android:layout_weight="0"
+                                android:background="@drawable/offlineborder"
+                                android:text="전화"
+                                android:textColor="#ffcccccc" />
+                            
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="0" >
+
+                        <ImageView
+                            android:id="@+id/userPhoto"
+                            android:layout_width="80dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="top"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/no_image" />
+
+                        <EditText
+                            android:id="@+id/myPhoto"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:baselineAligned="false" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <TextView
+                            android:id="@+id/officeAddr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="주소"
+                            android:textColor="#ff000000"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:baselineAligned="false"
+                        android:gravity="right"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            
+                            <TextView
+                                android:id="@+id/homePage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:autoLink="web"
+                                android:gravity="right"
+                                android:text="홈페이지"
+                                android:textColor="#ff000000"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right" >
+
+                            <TextView
+                                android:id="@+id/workEmail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:autoLink="email"
+                                android:gravity="right"
+                                android:text="이메일"
+                                android:textColor="#ff000000"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="담당업무."
+                        android:textColor="#ff000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/upmoo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="담당업무"
+                        android:textColor="#ff000000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="사업내용."
+                        android:textColor="#ff000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/keyword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="자기소개"
+                        android:textColor="#ff000000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

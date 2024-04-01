@@ -1,0 +1,7 @@
+#Sun Nov 18 11:41:42 KST 2018
+base.0=G\:\\SWC\\Bizcard1_20181114\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=G\:\\SWC\\Bizcard1_20181114\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0

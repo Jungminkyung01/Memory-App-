@@ -1,0 +1,890 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:2:1-260:12
+INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:2:1-260:12
+INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:2:1-260:12
+INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:2:1-260:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4654bf6c81b80a97220839c2da18c667\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\bba96e98867bb56b09a6def6a2a62a05\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\ddcb5586340080f89e92ee83f800ec90\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\e2779dcbd6a4df7e93b6ea799efabb0f\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-core:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.5.aar\9f16432d565e3dd70e0d7295e83c62e1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.3.aar\a1e61c3f0047b35131f1e68623084d34\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.3.aar\a78ecb46322bc282741f5b3c1540cee5\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.3.aar\79808a19bcfdddd8ee938e954aeb4a1c\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\afae4a85fde24d24b635ecf40d652a20\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\17ff507f1745ad2758b0c6fc1064ecc1\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\82eb82ef9f48f7a0eb3f499634e2219c\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\3daa868d1711ff424a2b175d15610c53\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\82bbae430bb77473114245897216784e\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.4.aar\c55196b3f3faca08fa59ac36581016c1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\2e62378fe8a170178c840b05b7933d98\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\93840af9966a5b49dc700bb5d3e4ca22\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\0c4d6a9a35c0681bfad44e1865c475f0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\cf844027fe2b0a19becac8bfdafda8e8\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\e0a91197207dca1ff5717ab9e202946c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\420dd58863024dc7e3ee7d17a124e5dc\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\76262c987d19eeec2fdab51a7bfeb181\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\cb12aa4502bceb804b5a3eb74d3ab65c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\20815a79717e45166226d5c1d0c6e646\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7964f93870f5833126704a53389fa9a6\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a8d12c1c4b6d7fefd442398ece3446b3\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\83c1f74156b55b3066d09cd77bdccff3\AndroidManifest.xml:17:1-30:12
+INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:2:1-260:12
+INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:2:1-260:12
+INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:2:1-260:12
+	package
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml
+		INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml
+		INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml
+		INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:7:2-8:13
+INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:7:2-8:13
+INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:7:2-8:13
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4654bf6c81b80a97220839c2da18c667\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4654bf6c81b80a97220839c2da18c667\AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\bba96e98867bb56b09a6def6a2a62a05\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\bba96e98867bb56b09a6def6a2a62a05\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\ddcb5586340080f89e92ee83f800ec90\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\ddcb5586340080f89e92ee83f800ec90\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\e2779dcbd6a4df7e93b6ea799efabb0f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\e2779dcbd6a4df7e93b6ea799efabb0f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.5.aar\9f16432d565e3dd70e0d7295e83c62e1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.5.aar\9f16432d565e3dd70e0d7295e83c62e1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.3.aar\a1e61c3f0047b35131f1e68623084d34\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.3.aar\a1e61c3f0047b35131f1e68623084d34\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.3.aar\a78ecb46322bc282741f5b3c1540cee5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.3.aar\a78ecb46322bc282741f5b3c1540cee5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.3.aar\79808a19bcfdddd8ee938e954aeb4a1c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.3.aar\79808a19bcfdddd8ee938e954aeb4a1c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\afae4a85fde24d24b635ecf40d652a20\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\afae4a85fde24d24b635ecf40d652a20\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\17ff507f1745ad2758b0c6fc1064ecc1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\17ff507f1745ad2758b0c6fc1064ecc1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\82eb82ef9f48f7a0eb3f499634e2219c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\82eb82ef9f48f7a0eb3f499634e2219c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\3daa868d1711ff424a2b175d15610c53\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\3daa868d1711ff424a2b175d15610c53\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\82bbae430bb77473114245897216784e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\82bbae430bb77473114245897216784e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.4.aar\c55196b3f3faca08fa59ac36581016c1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.4.aar\c55196b3f3faca08fa59ac36581016c1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\2e62378fe8a170178c840b05b7933d98\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\2e62378fe8a170178c840b05b7933d98\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\93840af9966a5b49dc700bb5d3e4ca22\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\93840af9966a5b49dc700bb5d3e4ca22\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\0c4d6a9a35c0681bfad44e1865c475f0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\0c4d6a9a35c0681bfad44e1865c475f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\cf844027fe2b0a19becac8bfdafda8e8\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\cf844027fe2b0a19becac8bfdafda8e8\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\e0a91197207dca1ff5717ab9e202946c\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\e0a91197207dca1ff5717ab9e202946c\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\420dd58863024dc7e3ee7d17a124e5dc\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\420dd58863024dc7e3ee7d17a124e5dc\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\76262c987d19eeec2fdab51a7bfeb181\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\76262c987d19eeec2fdab51a7bfeb181\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\cb12aa4502bceb804b5a3eb74d3ab65c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\cb12aa4502bceb804b5a3eb74d3ab65c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\20815a79717e45166226d5c1d0c6e646\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\20815a79717e45166226d5c1d0c6e646\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7964f93870f5833126704a53389fa9a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7964f93870f5833126704a53389fa9a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a8d12c1c4b6d7fefd442398ece3446b3\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a8d12c1c4b6d7fefd442398ece3446b3\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\83c1f74156b55b3066d09cd77bdccff3\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\83c1f74156b55b3066d09cd77bdccff3\AndroidManifest.xml:20:5-22:41
+INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:7:2-8:13
+INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:7:2-8:13
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4654bf6c81b80a97220839c2da18c667\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:7:12-41
+		INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml
+		INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:7:2-8:13
+		INJECTED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:10:2-64
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.3.aar\a1e61c3f0047b35131f1e68623084d34\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.3.aar\a1e61c3f0047b35131f1e68623084d34\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.3.aar\79808a19bcfdddd8ee938e954aeb4a1c\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.3.aar\79808a19bcfdddd8ee938e954aeb4a1c\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:10:19-61
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:11:2-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:11:19-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:12:2-65
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.3.aar\a1e61c3f0047b35131f1e68623084d34\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.3.aar\a1e61c3f0047b35131f1e68623084d34\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.3.aar\79808a19bcfdddd8ee938e954aeb4a1c\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.3.aar\79808a19bcfdddd8ee938e954aeb4a1c\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:12:19-62
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:13:2-68
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:13:19-65
+uses-permission#android.permission.VIBRATE
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:14:2-63
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:14:19-60
+uses-permission#android.permission.READ_CONTACTS
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:15:2-69
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:15:19-66
+application
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:17:2-229:16
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4654bf6c81b80a97220839c2da18c667\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4654bf6c81b80a97220839c2da18c667\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\bba96e98867bb56b09a6def6a2a62a05\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\bba96e98867bb56b09a6def6a2a62a05\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\e2779dcbd6a4df7e93b6ea799efabb0f\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\e2779dcbd6a4df7e93b6ea799efabb0f\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-core:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.5.aar\9f16432d565e3dd70e0d7295e83c62e1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.5.aar\9f16432d565e3dd70e0d7295e83c62e1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.3.aar\a1e61c3f0047b35131f1e68623084d34\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.3.aar\a1e61c3f0047b35131f1e68623084d34\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.3.aar\a78ecb46322bc282741f5b3c1540cee5\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.3.aar\a78ecb46322bc282741f5b3c1540cee5\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.3.aar\79808a19bcfdddd8ee938e954aeb4a1c\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.3.aar\79808a19bcfdddd8ee938e954aeb4a1c\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\afae4a85fde24d24b635ecf40d652a20\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\afae4a85fde24d24b635ecf40d652a20\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\17ff507f1745ad2758b0c6fc1064ecc1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\17ff507f1745ad2758b0c6fc1064ecc1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\82eb82ef9f48f7a0eb3f499634e2219c\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\82eb82ef9f48f7a0eb3f499634e2219c\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\3daa868d1711ff424a2b175d15610c53\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\3daa868d1711ff424a2b175d15610c53\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\82bbae430bb77473114245897216784e\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\82bbae430bb77473114245897216784e\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.4.aar\c55196b3f3faca08fa59ac36581016c1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.4.aar\c55196b3f3faca08fa59ac36581016c1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\2e62378fe8a170178c840b05b7933d98\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\2e62378fe8a170178c840b05b7933d98\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\93840af9966a5b49dc700bb5d3e4ca22\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\93840af9966a5b49dc700bb5d3e4ca22\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\0c4d6a9a35c0681bfad44e1865c475f0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\0c4d6a9a35c0681bfad44e1865c475f0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\cf844027fe2b0a19becac8bfdafda8e8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\cf844027fe2b0a19becac8bfdafda8e8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\e0a91197207dca1ff5717ab9e202946c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\e0a91197207dca1ff5717ab9e202946c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\420dd58863024dc7e3ee7d17a124e5dc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\420dd58863024dc7e3ee7d17a124e5dc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\76262c987d19eeec2fdab51a7bfeb181\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\76262c987d19eeec2fdab51a7bfeb181\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\cb12aa4502bceb804b5a3eb74d3ab65c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\cb12aa4502bceb804b5a3eb74d3ab65c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\20815a79717e45166226d5c1d0c6e646\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\20815a79717e45166226d5c1d0c6e646\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7964f93870f5833126704a53389fa9a6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7964f93870f5833126704a53389fa9a6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a8d12c1c4b6d7fefd442398ece3446b3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a8d12c1c4b6d7fefd442398ece3446b3\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\83c1f74156b55b3066d09cd77bdccff3\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\83c1f74156b55b3066d09cd77bdccff3\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:19:3-29
+	android:label
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:17:45-77
+	android:icon
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:17:15-44
+	android:allowBackup
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:18:3-29
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:20:3-50
+activity#com.nezip.bizcard1.Intro
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:22:3-31:14
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:25:4-40
+	android:clearTaskOnLaunch
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:26:4-36
+	android:label
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:23:4-36
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:24:4-51
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:22:13-33
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:27:4-30:20
+action#android.intent.action.MAIN
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:28:5-57
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:28:13-54
+category#android.intent.category.LAUNCHER
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:29:5-65
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:29:15-62
+service#com.nezip.bizcard1.MyFirebaseMessagingService
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:33:3-38:13
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:34:4-46
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:35:4-37:20
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:36:5-65
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:36:13-63
+service#com.nezip.bizcard1.MyFirebaseInstanceIDService
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:39:3-44:13
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:40:4-47
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:41:4-43:20
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:42:5-67
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:42:13-65
+service#com.nezip.bizcard1.AlarmService
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:46:3-49:13
+	android:enabled
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:48:4-26
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:47:4-50
+receiver#com.nezip.bizcard1.AlarmReceiver
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:51:3-58:14
+	android:enabled
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:52:4-26
+	android:exported
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:52:27-51
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:53:4-51
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:55:4-57:20
+action#android.intent.action.BOOT_COMPLETED
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:56:5-67
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:56:13-64
+activity#com.nezip.bizcard1.SecessionPopup
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:60:3-64:14
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:63:4-40
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:62:4-46
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:61:4-45
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:60:13-42
+activity#com.nezip.bizcard1.SecessionPopup02
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:66:3-70:14
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:69:4-40
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:68:4-46
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:67:4-45
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:66:13-44
+activity#com.nezip.bizcard1.BizCardList
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:72:3-76:40
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:74:4-40
+	android:hardwareAccelerated
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:76:4-38
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:75:4-51
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:73:4-51
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:72:13-39
+activity#com.nezip.bizcard1.BizCardGrid
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:78:3-82:40
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:80:4-40
+	android:hardwareAccelerated
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:82:4-38
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:81:4-51
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:79:4-51
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:78:13-39
+activity#com.nezip.bizcard1.MyCardView
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:84:3-86:40
+	android:hardwareAccelerated
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:86:4-38
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:85:4-51
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:84:13-39
+activity#com.nezip.bizcard1.BizCardView
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:88:3-90:40
+	android:hardwareAccelerated
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:90:4-38
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:89:4-51
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:88:13-40
+activity#com.nezip.bizcard1.BizCardForm
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:92:3-95:45
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:95:7-43
+	android:hardwareAccelerated
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:94:7-41
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:93:4-45
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:92:13-39
+activity#com.nezip.bizcard1.BizCardFindList
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:97:3-100:42
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:100:4-40
+	android:hardwareAccelerated
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:99:4-38
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:98:4-51
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:97:13-43
+activity#com.nezip.bizcard1.BizCardFindGrid
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:102:3-105:42
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:105:4-40
+	android:hardwareAccelerated
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:104:4-38
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:103:4-51
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:102:13-43
+activity#com.nezip.bizcard1.ContactList
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:108:3-111:42
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:111:4-40
+	android:hardwareAccelerated
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:110:4-38
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:109:4-51
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:108:13-39
+activity#com.nezip.bizcard1.ChatingForm
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:114:3-118:95
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:117:7-43
+	android:hardwareAccelerated
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:116:7-41
+	android:permission
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:118:4-93
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:115:7-54
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:114:13-39
+activity#com.nezip.bizcard1.PointSearchText
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:120:3-124:20
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:123:13-49
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:122:13-55
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:121:13-54
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:120:13-43
+activity#com.nezip.bizcard1.MemoText
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:126:3-130:20
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:129:13-49
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:128:13-55
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:127:13-54
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:126:13-36
+activity#com.nezip.bizcard1.BizCardFindSearchText
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:132:3-136:20
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:135:13-49
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:134:13-55
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:133:13-54
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:132:13-49
+activity#com.nezip.bizcard1.Outdialog
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:138:3-142:14
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:141:4-40
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:140:4-46
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:139:4-45
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:138:13-37
+activity#com.nezip.bizcard1.BizCardListSearchText
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:144:3-148:14
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:147:4-40
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:146:4-46
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:145:4-45
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:144:13-49
+activity#com.nezip.bizcard1.BuyPointPopup
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:151:3-154:20
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:153:13-49
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:152:13-54
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:151:13-41
+activity#com.nezip.bizcard1.UserJoin
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:156:3-159:53
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:158:4-40
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:159:4-51
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:157:4-51
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:156:13-36
+activity#com.nezip.bizcard1.UserEdit
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:163:3-166:53
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:165:4-40
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:166:4-51
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:164:4-51
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:163:13-37
+activity#com.nezip.bizcard1.HelpView
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:169:3-173:49
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:171:13-49
+	android:hardwareAccelerated
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:173:13-47
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:172:13-60
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:170:7-54
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:169:13-36
+activity#com.nezip.bizcard1.PhotoView
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:175:3-179:49
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:177:13-49
+	android:hardwareAccelerated
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:179:13-47
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:178:13-60
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:176:7-54
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:175:13-37
+activity#com.nezip.bizcard1.ChatRoomList
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:181:3-185:49
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:183:13-49
+	android:hardwareAccelerated
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:185:13-47
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:184:13-60
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:182:7-54
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:181:13-40
+activity#com.nezip.bizcard1.Join1th
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:187:3-190:62
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:189:13-49
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:190:13-60
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:188:7-54
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:187:13-35
+activity#com.nezip.bizcard1.UserPoint
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:192:3-195:62
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:194:13-49
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:195:13-60
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:193:7-54
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:192:13-37
+activity#com.nezip.bizcard1.Login1th
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:197:3-200:62
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:199:13-49
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:200:13-60
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:198:7-54
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:197:13-36
+activity#com.nezip.bizcard1.Find1th
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:202:3-205:62
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:204:13-49
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:205:13-60
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:203:7-54
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:202:13-35
+activity#com.nezip.bizcard1.Find2th
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:207:3-210:62
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:209:13-49
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:210:13-60
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:208:7-54
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:207:13-35
+activity#com.nezip.bizcard1.Setting
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:212:3-215:62
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:214:13-49
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:215:13-60
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:213:7-54
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:212:13-35
+activity#com.nezip.bizcard1.PointList
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:217:3-221:49
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:219:13-49
+	android:hardwareAccelerated
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:221:13-47
+	android:windowSoftInputMode
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:220:13-60
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:218:7-54
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:217:13-37
+activity#com.nezip.bizcard1.PostPopup
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:223:3-226:49
+	android:screenOrientation
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:225:13-49
+	android:hardwareAccelerated
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:226:13-47
+	android:theme
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:224:7-54
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:223:13-37
+uses-feature#android.hardware.camera
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:232:2-57
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:232:16-54
+uses-feature#android.hardware.camera.autofocus
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:233:2-67
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:233:16-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:234:2-78
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:234:19-75
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:235:2-76
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:235:19-73
+uses-permission#android.permission.ACCESS_GPS
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:236:2-66
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:236:19-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:237:2-76
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.3.aar\a1e61c3f0047b35131f1e68623084d34\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.3.aar\a1e61c3f0047b35131f1e68623084d34\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.3.aar\79808a19bcfdddd8ee938e954aeb4a1c\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.3.aar\79808a19bcfdddd8ee938e954aeb4a1c\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:237:19-73
+uses-permission#android.permission.CALL_PHONE
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:238:2-66
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:238:19-63
+uses-permission#android.permission.CAMERA
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:239:2-62
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:239:19-59
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:240:2-76
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:240:19-73
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:241:2-85
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:241:19-82
+uses-permission#com.android.launcher.permission.INSTALL_PACKAGES
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:242:2-85
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:242:19-82
+uses-permission#android.permission.LISTEN_CALL_STATE
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:243:2-73
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:243:19-70
+uses-permission#android.permission.READ_CALENDAR
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:244:2-69
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:244:19-66
+uses-permission#android.permission.READ_OWNER_DATA
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:245:2-71
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:245:19-68
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:246:2-72
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:246:19-69
+uses-permission#android.permission.READ_PPERMISSION
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:247:2-72
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:247:19-69
+uses-permission#android.permission.READ_SMS
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:248:2-64
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:248:19-61
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:249:2-77
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:249:19-74
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:250:2-78
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:250:19-75
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:251:2-67
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:251:19-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:252:2-68
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:252:19-65
+uses-permission#android.permission.SEND_SMS
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:253:2-64
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:253:19-61
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:254:2-69
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:254:19-66
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:255:2-70
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:255:19-67
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:256:2-78
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:256:19-75
+uses-permission#android.permission.WRITE_OWNER_DATA
+ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:257:2-72
+	android:name
+		ADDED from G:\SWC\Bizcard1_20181114\app\src\main\AndroidManifest.xml:257:19-69
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4654bf6c81b80a97220839c2da18c667\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\cf844027fe2b0a19becac8bfdafda8e8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\cf844027fe2b0a19becac8bfdafda8e8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\e0a91197207dca1ff5717ab9e202946c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\e0a91197207dca1ff5717ab9e202946c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\420dd58863024dc7e3ee7d17a124e5dc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\420dd58863024dc7e3ee7d17a124e5dc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\76262c987d19eeec2fdab51a7bfeb181\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\76262c987d19eeec2fdab51a7bfeb181\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\cb12aa4502bceb804b5a3eb74d3ab65c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\cb12aa4502bceb804b5a3eb74d3ab65c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\20815a79717e45166226d5c1d0c6e646\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\20815a79717e45166226d5c1d0c6e646\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7964f93870f5833126704a53389fa9a6\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\7964f93870f5833126704a53389fa9a6\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a8d12c1c4b6d7fefd442398ece3446b3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a8d12c1c4b6d7fefd442398ece3446b3\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4654bf6c81b80a97220839c2da18c667\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4654bf6c81b80a97220839c2da18c667\AndroidManifest.xml:27:13-51
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.3.aar\a1e61c3f0047b35131f1e68623084d34\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.3.aar\a1e61c3f0047b35131f1e68623084d34\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.5.aar\1d8e75b7675b459e3622f2f5b85a4314\AndroidManifest.xml:37:17-109
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\bba96e98867bb56b09a6def6a2a62a05\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\bba96e98867bb56b09a6def6a2a62a05\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.4.aar\bba96e98867bb56b09a6def6a2a62a05\AndroidManifest.xml:29:13-82
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.3.aar\a1e61c3f0047b35131f1e68623084d34\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.3.aar\a1e61c3f0047b35131f1e68623084d34\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.3.aar\a1e61c3f0047b35131f1e68623084d34\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.3.aar\79808a19bcfdddd8ee938e954aeb4a1c\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.3.aar\79808a19bcfdddd8ee938e954aeb4a1c\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.3.aar\79808a19bcfdddd8ee938e954aeb4a1c\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.3.aar\79808a19bcfdddd8ee938e954aeb4a1c\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.5.aar\16347d9a9d3ff39f057b583e7836c4a5\AndroidManifest.xml:49:13-87
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.4.aar\b78ef9d5c5269bf56f18ae10c2d929c5\AndroidManifest.xml:51:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\17ff507f1745ad2758b0c6fc1064ecc1\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\17ff507f1745ad2758b0c6fc1064ecc1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\17ff507f1745ad2758b0c6fc1064ecc1\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\17ff507f1745ad2758b0c6fc1064ecc1\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\82eb82ef9f48f7a0eb3f499634e2219c\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\82eb82ef9f48f7a0eb3f499634e2219c\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\82eb82ef9f48f7a0eb3f499634e2219c\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\82eb82ef9f48f7a0eb3f499634e2219c\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\82eb82ef9f48f7a0eb3f499634e2219c\AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\0c4d6a9a35c0681bfad44e1865c475f0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\0c4d6a9a35c0681bfad44e1865c475f0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\0c4d6a9a35c0681bfad44e1865c475f0\AndroidManifest.xml:24:13-58
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\83c1f74156b55b3066d09cd77bdccff3\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\83c1f74156b55b3066d09cd77bdccff3\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\leera\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\83c1f74156b55b3066d09cd77bdccff3\AndroidManifest.xml:26:13-58

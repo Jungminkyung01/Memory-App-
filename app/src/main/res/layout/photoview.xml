@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/all"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0"
+        android:background="@drawable/header"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/leftTurnBtn"
+            style="?android:attr/buttonStyleSmall"
+            android:background="@drawable/photoborder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="좌회전" />
+
+        <TextView
+            android:id="@+id/photoTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="사진보기"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/color_white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/rightTurnBtn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0"
+            android:background="@drawable/photoborder"
+            android:gravity="center"
+            android:text="우회전" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rightToleft"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#ffffffff"
+        android:orientation="vertical" >
+
+        <com.nezip.bizcard1.MoveView
+            android:id="@+id/moveView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/closeBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/photoborder"
+                android:gravity="center"
+                android:text="닫기" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

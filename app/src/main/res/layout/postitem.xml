@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#EFF6FD"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_marginRight="5dip"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip" 
+        android:layout_marginLeft="5dip" >
+
+        <LinearLayout
+            android:id="@+id/leftMessageLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dip" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/postNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dip"
+                    android:singleLine="true"
+                    android:text="우편번호"
+                    android:textColor="#ff000000"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/postAddr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="3dip"
+                    android:text="주소"
+                    android:textColor="#ff787878"
+                    android:typeface="sans" />
+                
+                <TextView
+                    android:id="@+id/useAddr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="3dip"
+                    android:text="사용주소"
+                    android:textColor="#ff787878"
+                    android:typeface="sans"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/postBtn"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="선택" 
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="5dip"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
